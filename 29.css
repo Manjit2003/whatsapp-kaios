@@ -1,1 +1,21 @@
-.F,.G{width:100%;height:100%}.F{display:flex;justify-content:center;align-items:center;color:var(--M);flex-direction:column}[dir] .F{background-color:#000}[dir] .H{margin-top:10px}[dir] .I{margin-top:20px}
+.F,
+.G {
+  width: 100%;
+  height: 100%;
+}
+.F {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--M);
+  flex-direction: column;
+}
+[dir] .F {
+  background-color: #000;
+}
+[dir] .H {
+  margin-top: 10px;
+}
+[dir] .I {
+  margin-top: 20px;
+}

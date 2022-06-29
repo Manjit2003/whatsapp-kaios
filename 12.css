@@ -1,1 +1,155 @@
-.GT{position:fixed;display:flex;align-items:center}[dir] .GT{background-color:rgba(0,0,0,.5)}.GU.GT{bottom:0;height:var(--S)}[dir=ltr] .GU.GT,[dir=rtl] .GU.GT{padding-left:10px;padding-right:10px;left:0;right:0}.GV.GT{top:0;bottom:0}[dir] .GV.GT{padding-top:20px;padding-bottom:20px}[dir=ltr] .GV.GT{left:0}[dir=rtl] .GV.GT{right:0}.GW.GT.GU,.GW.GT.GV{bottom:var(--S)}.GX{--AQ:4px;--AR:14px;--AS:#03c8b4;transition:var(--D);height:100%;width:100%;position:relative}[dir] .GX{background-color:hsla(0,0%,100%,.9);border-radius:3px}.GU .GX{height:var(--AQ)}[dir=ltr] .GU .GX,[dir=rtl] .GU .GX{margin-left:10px;margin-right:10px}.GV .GX{width:var(--AQ)}[dir] .GV .GX{margin-top:10px;margin-bottom:10px}[dir=ltr] .GV .GX{margin-left:15px;margin-right:17px}[dir=rtl] .GV .GX{margin-right:15px;margin-left:17px}[dir] .GY{background-color:var(--AS);border-radius:3px}.GU .GY{height:var(--AQ)}.GV .GY{width:var(--AQ)}.GZ{position:absolute;height:var(--AR);width:var(--AR)}[dir] .GZ{border-radius:50%;background-color:var(--AS)}.GU .GZ{top:calc(-1*(var(--AR) - var(--AQ))/2)}[dir=ltr] .GU .GZ{transform:translateX(-5px)}[dir=rtl] .GU .GZ{transform:translateX(5px)}[dir] .GV .GZ{transform:translateY(-5px)}[dir=ltr] .GV .GZ{left:calc(-1*(var(--AR) - var(--AQ))/2)}[dir=rtl] .GV .GZ{right:calc(-1*(var(--AR) - var(--AQ))/2)}.Ga{opacity:0}.GV .Gb:after{content:"";position:fixed;z-index:-1;width:60px;height:60px;bottom:-15px}[dir] .GV .Gb:after{border-radius:50%;background:rgba(0,0,0,.5)}[dir=ltr] .GV .Gb:after{right:-20px}[dir=rtl] .GV .Gb:after{left:-20px}.GU .Gb{flex:0}.GU .Gb,.GV .Gb{height:var(--S);color:var(--C);display:flex;align-items:center;justify-content:flex-end}.GV .Gb{position:fixed;bottom:5px}[dir=ltr] .GV .Gb{right:5px}[dir=rtl] .GV .Gb{left:5px}.Gc{height:20px}
+.GT {
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+[dir] .GT {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.GU.GT {
+  bottom: 0;
+  height: var(--S);
+}
+[dir="ltr"] .GU.GT,
+[dir="rtl"] .GU.GT {
+  padding-left: 10px;
+  padding-right: 10px;
+  left: 0;
+  right: 0;
+}
+.GV.GT {
+  top: 0;
+  bottom: 0;
+}
+[dir] .GV.GT {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+[dir="ltr"] .GV.GT {
+  left: 0;
+}
+[dir="rtl"] .GV.GT {
+  right: 0;
+}
+.GW.GT.GU,
+.GW.GT.GV {
+  bottom: var(--S);
+}
+.GX {
+  --AQ: 4px;
+  --AR: 14px;
+  --AS: #03c8b4;
+  transition: var(--D);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+[dir] .GX {
+  background-color: hsla(0, 0%, 100%, 0.9);
+  border-radius: 3px;
+}
+.GU .GX {
+  height: var(--AQ);
+}
+[dir="ltr"] .GU .GX,
+[dir="rtl"] .GU .GX {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.GV .GX {
+  width: var(--AQ);
+}
+[dir] .GV .GX {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+[dir="ltr"] .GV .GX {
+  margin-left: 15px;
+  margin-right: 17px;
+}
+[dir="rtl"] .GV .GX {
+  margin-right: 15px;
+  margin-left: 17px;
+}
+[dir] .GY {
+  background-color: var(--AS);
+  border-radius: 3px;
+}
+.GU .GY {
+  height: var(--AQ);
+}
+.GV .GY {
+  width: var(--AQ);
+}
+.GZ {
+  position: absolute;
+  height: var(--AR);
+  width: var(--AR);
+}
+[dir] .GZ {
+  border-radius: 50%;
+  background-color: var(--AS);
+}
+.GU .GZ {
+  top: calc(-1 * (var(--AR) - var(--AQ)) / 2);
+}
+[dir="ltr"] .GU .GZ {
+  transform: translateX(-5px);
+}
+[dir="rtl"] .GU .GZ {
+  transform: translateX(5px);
+}
+[dir] .GV .GZ {
+  transform: translateY(-5px);
+}
+[dir="ltr"] .GV .GZ {
+  left: calc(-1 * (var(--AR) - var(--AQ)) / 2);
+}
+[dir="rtl"] .GV .GZ {
+  right: calc(-1 * (var(--AR) - var(--AQ)) / 2);
+}
+.Ga {
+  opacity: 0;
+}
+.GV .Gb:after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 60px;
+  height: 60px;
+  bottom: -15px;
+}
+[dir] .GV .Gb:after {
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+}
+[dir="ltr"] .GV .Gb:after {
+  right: -20px;
+}
+[dir="rtl"] .GV .Gb:after {
+  left: -20px;
+}
+.GU .Gb {
+  flex: 0;
+}
+.GU .Gb,
+.GV .Gb {
+  height: var(--S);
+  color: var(--C);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.GV .Gb {
+  position: fixed;
+  bottom: 5px;
+}
+[dir="ltr"] .GV .Gb {
+  right: 5px;
+}
+[dir="rtl"] .GV .Gb {
+  left: 5px;
+}
+.Gc {
+  height: 20px;
+}

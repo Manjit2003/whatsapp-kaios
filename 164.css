@@ -1,1 +1,24 @@
-.Tj{--c:10px;display:flex;flex-direction:column}[dir] .Tk{padding:var(--c)}[dir=ltr] .Tl{border-left:5px solid var(--Y);padding-left:calc(var(--c) - 5px)}[dir=rtl] .Tl{border-right:5px solid var(--Y);padding-right:calc(var(--c) - 5px)}.Tm{}[dir] .Tm{border-bottom:1px solid var(--X)}.Tn{color:var(--T)}
+.Tj {
+  --c: 10px;
+  display: flex;
+  flex-direction: column;
+}
+[dir] .Tk {
+  padding: var(--c);
+}
+[dir="ltr"] .Tl {
+  border-left: 5px solid var(--Y);
+  padding-left: calc(var(--c) - 5px);
+}
+[dir="rtl"] .Tl {
+  border-right: 5px solid var(--Y);
+  padding-right: calc(var(--c) - 5px);
+}
+.Tm {
+}
+[dir] .Tm {
+  border-bottom: 1px solid var(--X);
+}
+.Tn {
+  color: var(--T);
+}

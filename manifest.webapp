@@ -170,12 +170,7 @@
     "share": {
       "href": "/notification.html",
       "filters": {
-        "type": [
-          "video/*",
-          "image/*",
-          "text/vcard",
-          "text/plain"
-        ]
+        "type": ["video/*", "image/*", "text/vcard", "text/plain"]
       }
     },
     "view": {

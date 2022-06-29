@@ -1,3 +1,92 @@
-.Io{width:100%;font-size:1rem;color:var(--V);resize:none;overflow-y:var(--W,auto)}[dir] .Io{padding:8px 10px;border-radius:2px;background-color:var(--C);border:1px solid var(--i)}[dir] .Io:invalid{box-shadow:none}.Ip{color:var(--E)}[dir] .Ip{box-shadow:0 -2px 1px -1px var(--E)}
-.BF{display:flex;align-items:center;flex-direction:column;height:100%;justify-content:center}.BG{max-width:80%;display:inline-block}[dir] .BG{padding:10px;text-align:center}
-.Bq{color:var(--K)}[dir] .Bq{padding-bottom:.5rem}.Br .Bq{color:var(--C)}.Bs{flex-direction:column}.Bt,.Bs{width:100%;display:flex}.Bt{flex-direction:row;justify-content:space-between}[dir=rtl] .Bt{flex-direction:row-reverse}.Bu{height:36px;width:31px;font-weight:600;color:var(--V);display:flex;align-items:center;justify-content:center}[dir] .Bu{text-align:center;background:var(--C);border-radius:5px;border:1px solid #ccc}.Bv{width:10px;height:10px}[dir] .Bv{border-radius:50%;background-color:var(--i)}.Bw{opacity:0;height:1px}[dir] .Bw{padding:0;border:0}
+.Io {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--V);
+  resize: none;
+  overflow-y: var(--W, auto);
+}
+[dir] .Io {
+  padding: 8px 10px;
+  border-radius: 2px;
+  background-color: var(--C);
+  border: 1px solid var(--i);
+}
+[dir] .Io:invalid {
+  box-shadow: none;
+}
+.Ip {
+  color: var(--E);
+}
+[dir] .Ip {
+  box-shadow: 0 -2px 1px -1px var(--E);
+}
+.BF {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.BG {
+  max-width: 80%;
+  display: inline-block;
+}
+[dir] .BG {
+  padding: 10px;
+  text-align: center;
+}
+.Bq {
+  color: var(--K);
+}
+[dir] .Bq {
+  padding-bottom: 0.5rem;
+}
+.Br .Bq {
+  color: var(--C);
+}
+.Bs {
+  flex-direction: column;
+}
+.Bt,
+.Bs {
+  width: 100%;
+  display: flex;
+}
+.Bt {
+  flex-direction: row;
+  justify-content: space-between;
+}
+[dir="rtl"] .Bt {
+  flex-direction: row-reverse;
+}
+.Bu {
+  height: 36px;
+  width: 31px;
+  font-weight: 600;
+  color: var(--V);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[dir] .Bu {
+  text-align: center;
+  background: var(--C);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.Bv {
+  width: 10px;
+  height: 10px;
+}
+[dir] .Bv {
+  border-radius: 50%;
+  background-color: var(--i);
+}
+.Bw {
+  opacity: 0;
+  height: 1px;
+}
+[dir] .Bw {
+  padding: 0;
+  border: 0;
+}

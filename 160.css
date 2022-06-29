@@ -1,1 +1,114 @@
-.Eh{position:fixed;top:0;bottom:0;pointer-events:none;display:flex;justify-content:center;align-items:center;fill:var(--C);transition:var(--D)}[dir=ltr] .Eh,[dir=rtl] .Eh{left:0;right:0}.Eh>svg{width:56px;height:56px}[dir] .Eh>svg{padding:15.5px;border-radius:50%;background-color:rgba(0,0,0,.5)}[dir=ltr] .Eh.Ei{transform:rotate(90deg)}[dir=rtl] .Eh.Ei{transform:rotate(-90deg)}.Ej{position:fixed;top:0;bottom:0;display:flex;align-items:center;justify-content:center}[dir] .Ej{background-color:var(--V)}[dir=ltr] .Ej,[dir=rtl] .Ej{left:0;right:0}[dir=ltr] .Ek{transform:rotate(90deg)}[dir=rtl] .Ek{transform:rotate(-90deg)}[dir=ltr] .El{transform:rotate(180deg)}[dir=rtl] .El{transform:rotate(-180deg)}[dir=ltr] .Em{transform:rotate(270deg)}[dir=rtl] .Em{transform:rotate(-270deg)}.En{width:100vh;height:100vw}.Eo{width:100vw;height:100vh}.Ep{opacity:0}.Eq{position:fixed;color:var(--C)}[dir] .Eq{padding:4px 8px;background-color:var(--U)}[dir=ltr] .Eq{left:0}[dir=rtl] .Eq{right:0}.Er{bottom:0}[dir=ltr] .Er{right:0}[dir=rtl] .Er{left:0}.Es{top:0;width:100vh}[dir=ltr] .Es{transform:translateY(-100%) rotate(90deg);transform-origin:0 100%}[dir=rtl] .Es{transform:translateY(-100%) rotate(-90deg);transform-origin:100% 100%}.Et{max-height:calc(var(--AF)*1.445*var(--F))}
+.Eh {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--C);
+  transition: var(--D);
+}
+[dir="ltr"] .Eh,
+[dir="rtl"] .Eh {
+  left: 0;
+  right: 0;
+}
+.Eh > svg {
+  width: 56px;
+  height: 56px;
+}
+[dir] .Eh > svg {
+  padding: 15.5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+[dir="ltr"] .Eh.Ei {
+  transform: rotate(90deg);
+}
+[dir="rtl"] .Eh.Ei {
+  transform: rotate(-90deg);
+}
+.Ej {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[dir] .Ej {
+  background-color: var(--V);
+}
+[dir="ltr"] .Ej,
+[dir="rtl"] .Ej {
+  left: 0;
+  right: 0;
+}
+[dir="ltr"] .Ek {
+  transform: rotate(90deg);
+}
+[dir="rtl"] .Ek {
+  transform: rotate(-90deg);
+}
+[dir="ltr"] .El {
+  transform: rotate(180deg);
+}
+[dir="rtl"] .El {
+  transform: rotate(-180deg);
+}
+[dir="ltr"] .Em {
+  transform: rotate(270deg);
+}
+[dir="rtl"] .Em {
+  transform: rotate(-270deg);
+}
+.En {
+  width: 100vh;
+  height: 100vw;
+}
+.Eo {
+  width: 100vw;
+  height: 100vh;
+}
+.Ep {
+  opacity: 0;
+}
+.Eq {
+  position: fixed;
+  color: var(--C);
+}
+[dir] .Eq {
+  padding: 4px 8px;
+  background-color: var(--U);
+}
+[dir="ltr"] .Eq {
+  left: 0;
+}
+[dir="rtl"] .Eq {
+  right: 0;
+}
+.Er {
+  bottom: 0;
+}
+[dir="ltr"] .Er {
+  right: 0;
+}
+[dir="rtl"] .Er {
+  left: 0;
+}
+.Es {
+  top: 0;
+  width: 100vh;
+}
+[dir="ltr"] .Es {
+  transform: translateY(-100%) rotate(90deg);
+  transform-origin: 0 100%;
+}
+[dir="rtl"] .Es {
+  transform: translateY(-100%) rotate(-90deg);
+  transform-origin: 100% 100%;
+}
+.Et {
+  max-height: calc(var(--AF) * 1.445 * var(--F));
+}

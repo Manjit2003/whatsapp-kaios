@@ -1,1 +1,6 @@
-.TN{white-space:pre-line}[dir] .TN{padding:10px}
+.TN {
+  white-space: pre-line;
+}
+[dir] .TN {
+  padding: 10px;
+}

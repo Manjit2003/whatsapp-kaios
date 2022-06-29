@@ -1,1 +1,67 @@
-.Gd{--c:10px;display:flex;flex-direction:column}.Ge{color:var(--A);font-size:var(--B)}[dir] .Ge{padding:var(--c)}.Gf{display:flex;flex-direction:row;justify-content:space-between;align-items:center}[dir] .Gf{padding:var(--c);margin-top:5px}.Gg{width:var(--Q);height:var(--Q)}[dir=rtl] .Gg{transform:rotate(180deg)}.Gh{display:flex;flex-direction:row}[dir] .Gh{padding:var(--c)}.Gi{flex-grow:0;flex-shrink:0;width:50px;color:var(--i)}[dir=ltr] .Gi{padding-left:10px}[dir=rtl] .Gi{padding-right:10px}.Gj,.Gj .Gi{color:var(--C)}[dir] .Gj,[dir] .Gj .Gi{background:var(--Y)}.Gj .Gg{fill:var(--C)}[dir=ltr] .Gk{border-left:5px solid var(--Y);padding-left:calc(var(--c) - 5px)}[dir=rtl] .Gk{border-right:5px solid var(--Y);padding-right:calc(var(--c) - 5px)}
+.Gd {
+  --c: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Ge {
+  color: var(--A);
+  font-size: var(--B);
+}
+[dir] .Ge {
+  padding: var(--c);
+}
+.Gf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+[dir] .Gf {
+  padding: var(--c);
+  margin-top: 5px;
+}
+.Gg {
+  width: var(--Q);
+  height: var(--Q);
+}
+[dir="rtl"] .Gg {
+  transform: rotate(180deg);
+}
+.Gh {
+  display: flex;
+  flex-direction: row;
+}
+[dir] .Gh {
+  padding: var(--c);
+}
+.Gi {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 50px;
+  color: var(--i);
+}
+[dir="ltr"] .Gi {
+  padding-left: 10px;
+}
+[dir="rtl"] .Gi {
+  padding-right: 10px;
+}
+.Gj,
+.Gj .Gi {
+  color: var(--C);
+}
+[dir] .Gj,
+[dir] .Gj .Gi {
+  background: var(--Y);
+}
+.Gj .Gg {
+  fill: var(--C);
+}
+[dir="ltr"] .Gk {
+  border-left: 5px solid var(--Y);
+  padding-left: calc(var(--c) - 5px);
+}
+[dir="rtl"] .Gk {
+  border-right: 5px solid var(--Y);
+  padding-right: calc(var(--c) - 5px);
+}

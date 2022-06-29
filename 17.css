@@ -1,2 +1,92 @@
-.Gl{display:flex;width:100%;justify-content:space-between}[dir] .Gl{padding:10px}.Gm{flex:auto}.Gn{flex:none;width:50px;color:var(--i)}[dir=ltr] .Gn{padding-left:10px}[dir=rtl] .Gn{padding-right:10px}.Go,.Go .Gn{color:var(--C)}[dir] .Go,[dir] .Go .Gn{background:var(--Y)}
-.Cm{--c:10px;display:flex;flex-direction:column}[dir] .Cn{padding:var(--c);padding-bottom:0}.Co{color:var(--K);font-size:var(--F);font-weight:600}.Cp{color:var(--A);font-size:var(--B)}.Cq{display:flex;flex-direction:row;justify-content:space-between;align-items:center}[dir] .Cq{padding:var(--c);margin-top:5px}.Cr{width:var(--Q);height:var(--Q)}[dir=rtl] .Cr{transform:rotate(180deg)}.Cs{display:flex;flex-direction:row}[dir] .Cs{padding:var(--c)}.Ct{color:var(--C)}[dir] .Ct{background:var(--Y)}.Ct .Cr{fill:var(--C)}[dir=ltr] .Cu{border-left:5px solid var(--Y);padding-left:calc(var(--c) - 5px)}[dir=rtl] .Cu{border-right:5px solid var(--Y);padding-right:calc(var(--c) - 5px)}.Cv{font-weight:600}
+.Gl {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+[dir] .Gl {
+  padding: 10px;
+}
+.Gm {
+  flex: auto;
+}
+.Gn {
+  flex: none;
+  width: 50px;
+  color: var(--i);
+}
+[dir="ltr"] .Gn {
+  padding-left: 10px;
+}
+[dir="rtl"] .Gn {
+  padding-right: 10px;
+}
+.Go,
+.Go .Gn {
+  color: var(--C);
+}
+[dir] .Go,
+[dir] .Go .Gn {
+  background: var(--Y);
+}
+.Cm {
+  --c: 10px;
+  display: flex;
+  flex-direction: column;
+}
+[dir] .Cn {
+  padding: var(--c);
+  padding-bottom: 0;
+}
+.Co {
+  color: var(--K);
+  font-size: var(--F);
+  font-weight: 600;
+}
+.Cp {
+  color: var(--A);
+  font-size: var(--B);
+}
+.Cq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+[dir] .Cq {
+  padding: var(--c);
+  margin-top: 5px;
+}
+.Cr {
+  width: var(--Q);
+  height: var(--Q);
+}
+[dir="rtl"] .Cr {
+  transform: rotate(180deg);
+}
+.Cs {
+  display: flex;
+  flex-direction: row;
+}
+[dir] .Cs {
+  padding: var(--c);
+}
+.Ct {
+  color: var(--C);
+}
+[dir] .Ct {
+  background: var(--Y);
+}
+.Ct .Cr {
+  fill: var(--C);
+}
+[dir="ltr"] .Cu {
+  border-left: 5px solid var(--Y);
+  padding-left: calc(var(--c) - 5px);
+}
+[dir="rtl"] .Cu {
+  border-right: 5px solid var(--Y);
+  padding-right: calc(var(--c) - 5px);
+}
+.Cv {
+  font-weight: 600;
+}
