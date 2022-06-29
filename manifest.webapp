@@ -1,0 +1,219 @@
+{
+  "name": "WhatsApp",
+  "display": "WhatsApp",
+  "subtitle": "Simple. Personal. Secure.",
+  "description": "W﻿h﻿a﻿t﻿s﻿A﻿p﻿p Messenger is a FREE messaging app available for JioPhone and other smartphones. W﻿h﻿a﻿t﻿s﻿A﻿p﻿p uses your phone's Internet connection (4G or Wi-Fi, as available) to let you message friends and family. Switch from SMS to W﻿h﻿a﻿t﻿s﻿A﻿p﻿p to send and receive messages, photos, videos, and Voice Messages.\n\n*Data charges may apply. Contact your provider for details.",
+  "version": "2.2218.5.1",
+  "theme": "#2cab98",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "cursor": false,
+  "priority": "high",
+  "developer": {
+    "name": "WhatsApp Inc.",
+    "url": "https://www.whatsapp.com"
+  },
+  "permissions": {
+    "audio-capture": {
+      "description": "Required for recording audio message"
+    },
+    "video-capture": {
+      "description": "Required for recording video"
+    },
+    "audio-channel-content": {
+      "description": "Needed to play this app's audio content on the content channel"
+    },
+    "audio-channel-telephony": {
+      "description": "Needed to play this app's audio content on the telephony channel"
+    },
+    "audio-channel-notification": {
+      "description": "Needed to play this app's audio content on the notification channel"
+    },
+    "browser": {
+      "description": "Access to web pages, like legal, etc..."
+    },
+    "contacts": {
+      "description": "Required to load contacts",
+      "access": "readonly"
+    },
+    "desktop-notification": {
+      "description": "Required for displaying alerts when app is on background"
+    },
+    "device-storage:pictures": {
+      "access": "readwrite",
+      "description": "Required to store pictures"
+    },
+    "device-storage:videos": {
+      "access": "readwrite",
+      "description": "Required to store videos"
+    },
+    "device-storage:music": {
+      "access": "readwrite",
+      "description": "Required to store music"
+    },
+    "device-storage:sdcard": {
+      "access": "readwrite",
+      "description": "Required to store media in SDCard"
+    },
+    "device-storage:apps": {
+      "access": "readwrite",
+      "description": "Required to measure remaining free space"
+    },
+    "geolocation": {
+      "description": "Required to get user current position"
+    },
+    "webapps-manage": {},
+    "permissions": {},
+    "mobilenetwork": {
+      "description": "To detect mobile carrier and regional information."
+    },
+    "push": {
+      "description": "To receive notifications"
+    },
+    "serviceworker": {},
+    "sms": {},
+    "settings": {
+      "access": "readonly",
+      "description": "Required for Device Information"
+    },
+    "systemXHR": {
+      "description": "XHR needed for WA connection"
+    },
+    "storage": {
+      "description": "Unlimited storage"
+    },
+    "telephony": {
+      "description": "Required to control telephony functions"
+    },
+    "mobileconnection": {
+      "description": "Required to get carrier ids and a user country"
+    },
+    "wifi-manage": {
+      "description": "To distinguish between WiFi and cellular connections"
+    },
+    "feature-detection": {
+      "description": "To discover phone characteristics and supported features"
+    },
+    "moz-attention": {
+      "description": "Required to display attention window"
+    },
+    "power": {
+      "description": "Required to restart device in case if the storage seems to be corrupted"
+    },
+    "external-api": {}
+  },
+  "messages": [
+    {
+      "serviceworker-notification": "/notification.html"
+    }
+  ],
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "W﻿h﻿a﻿t﻿s﻿A﻿p﻿p",
+      "subtitle": "Simple. Personal. Secure.",
+      "description": "W﻿h﻿a﻿t﻿s﻿A﻿p﻿p Messenger is a FREE messaging app available for JioPhone and other smartphones. W﻿h﻿a﻿t﻿s﻿A﻿p﻿p uses your phone's Internet connection (4G or Wi-Fi, as available) to let you message friends and family. Switch from SMS to W﻿h﻿a﻿t﻿s﻿A﻿p﻿p to send and receive messages, photos, videos, and Voice Messages.\n\n*Data charges may apply. Contact your provider for details."
+    },
+    "gu-IN": {
+      "name": "WhatsApp",
+      "subtitle": "સરળ. અંગત. સુરક્ષિત.",
+      "description": "ફ્રીમાં મેસેજ કરવા માટે WhatsApp Messenger ઍપ JioPhone અને બીજા સ્માર્ટફોન પર ઉપલબ્ધ છે. WhatsApp તમારા ફોનનું ઇન્ટરનેટ કનેક્શન (4G કે વાઇ-ફાઇ, જે પણ ઉપલબ્ધ હોય તે) વાપરીને તમારા મિત્રો અને કુટુંબીજનોને મેસેજ કરવાની સુવિધા આપે છે. SMS કરવાને બદલે WhatsApp અપનાવીને મેસેજ, ફોટા, વીડિયો અને વોઇસ મેસેજ મોકલો અને મેળવો.\n\n*ઇન્ટરનેટનો ચાર્જ લાગી શકે. વધુ માહિતી માટે તમને નેટવર્કની સેવા પૂરી પાડતી કંપનીનો સંપર્ક કરો."
+    },
+    "hi-IN": {
+      "name": "WhatsApp",
+      "subtitle": "आसान, निजी और सुरक्षित.",
+      "description": "WhatsApp Messenger संंदेश भेजने के लिए मुफ़्त ऐप है, जो JioPhone और अन्य स्मार्टफ़ोन पर उपलब्ध है. अपने दोस्तों और परिवारजनों को मैसेज भेजने के लिए WhatsApp आपके फ़ोन के इंटरनेट कनेक्शन (4G या वाई-फ़ाई, जो उपलब्ध हो) का इस्तेमाल करता है. मैसेज, फ़ोटो, वीडियो और वॉइस मैसेज भेजने और पाने के लिए SMS छोड़कर WhatsApp का इस्तेमाल करें.\n\n*डेटा शुल्क लागू हो सकता है. डीटेल्स के लिए अपने प्रोवाइडर से संपर्क करें."
+    },
+    "kn-IN": {
+      "name": "WhatsApp",
+      "subtitle": "ಸರಳ, ವೈಯಕ್ತಿಕ. ಸುರಕ್ಷಿತ.",
+      "description": "WhatsApp Messenger ಇದು ಉಚಿತ ಮೆಸೇಜ್ ಕಳುಹಿಸುವ ತಂತ್ರಾಂಶವಾಗಿದ್ದು, JioPhone ಮತ್ತು ಇತರೆ ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ಗಳಿಗೆ ಲಭ್ಯವಿದೆ. WhatsApp ನಿಮ್ಮ ಫೋನಿನ ಅಂತರ್ಜಾಲದ ಸಂಪರ್ಕವನ್ನು (4G ಅಥವಾ Wi-Fi, ಲಭ್ಯತೆಯ ಮೇಲೆ) ನಿಮ್ಮ ಮೆಸೇಜ್‌ಗಳನ್ನು ಸ್ನೇಹಿತರಿಗೆ ಮತ್ತು ಕುಟುಂಬದೊಂದಿಗೆ ಮೆಸೇಜ್ ಕಳುಹಿಸುವಲ್ಲಿ ಬಳಸುತ್ತದೆ. SMS ನಿಂದ WhatsApp ಗೆ ಮೆಸೇಜ್‌ಗಳು, ಚಿತ್ರಗಳು, ದೃಶ್ಯಗಳು ಮತ್ತು ಧ್ವನಿ ಮೆಸೇಜ್‌ಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಪಡೆಯಲು ವರ್ಗಾಯಿಸಿ. \n\n* ಡೇಟಾ ಶುಲ್ಕಗಳು ಅನ್ವಯಿಸಬಹುದು. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನಿಮ್ಮ ಸೇವಾದಾರರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+    },
+    "ml-IN": {
+      "name": "WhatsApp",
+      "subtitle": "ലളിതം. സ്വകാര്യം. സുരക്ഷിതം.",
+      "description": "ജിയോഫോണിലും മറ്റു സ്മാർട്ട്ഫോണുകളിലും ലഭ്യമായ ഒരു സൗജന്യ ആപ്പ് ആണ് WhatsApp മെസ്സഞ്ചർ. സുഹൃത്തുക്കൾക്കും കുടുംബക്കാർക്കും സന്ദേശങ്ങളയക്കാനായി നിങ്ങളുടെ ഫോണിലെ ഇന്റർനെറ്റ് കണക്ഷൻ (4G അല്ലെങ്കിൽ വൈഫൈ) ആണ് WhatsApp ഉപയോഗിക്കുന്നത്. ശബ്ദസന്ദേശങ്ങൾ, വീഡിയോകൾ, ഫോട്ടോകൾ, സന്ദേശങ്ങൾ എന്നിവ അയക്കാനും സ്വീകരിക്കാനുമായി SMS ൽ നിന്നും WhatsApp ലേക്കു മാറൂ.\n\n*ഡാറ്റാ നിരക്കുകൾ ബാധകമാണ്. വിശദവിവരങ്ങൾക്ക് നിങ്ങളുടെ ദാതാവുമായി ബന്ധപ്പെടുക."
+    },
+    "mr-IN": {
+      "name": "WhatsApp",
+      "subtitle": "सोपे. वैयक्तिक. सुरक्षित.",
+      "description": "WhatsApp Messenger हे एक मोफत मेसेजिंग ॲप आहे जे JioPhone आणि अन्य स्मार्टफोनवर उपलब्ध आहे. तुम्हाला मित्रमैत्रिणींना आणि कुटुंबियांना संदेश पाठवू देण्यासाठी WhatsApp तुमच्या फोनचे इंटरनेट कनेक्शन (4G किंवा Wi-Fi, उपलब्ध असेल ते) वापरते. संदेश, फोटो, व्हिडिओ आणि व्हॉइस मेसेज पाठवण्यासाठी एसएमएस ऐवजी आता WhatsApp वापरा. \n\n*डेटा शुल्क लागू शकते. तपशीलांसाठी तुमच्या प्रदात्याशी संंपर्क साधा."
+    },
+    "pa-IN": {
+      "name": "WhatsApp",
+      "subtitle": "ਸਰਲ. ਨਿੱਜੀ. ਸੁਰੱਖਿਅਤ.",
+      "description": "WhatsApp Messenger ਇੱਕ ਮੁਫ਼ਤ ਸੁਨੇਹਾ ਐਪ ਹੈ ਜੋ JioPhone ਅਤੇ ਹੋਰ ਕਈ ਸਮਾਰਟਫ਼ੋਨਾਂ ਲਈ ਉਪਲਬਧ ਹੈ। WhatsApp ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੇ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ (4G ਜਾਂ Wi-Fi ਵਿੱਚੋਂ ਜੋ ਵੀ ਉਪਲਬਧ ਹੋਵੇ) ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਤੁਹਾਨੂੰ ਆਪਣੇ ਦੋਸਤਾਂ ਅਤੇ ਪਰਿਵਾਰ ਦੇ ਮੈਂਬਰਾਂ ਨੂੰ ਸੁਨੇਹੇ ਭੇਜਣ ਦੀ ਸਹੂਲਤ ਦਿੰਦਾ ਹੈ। ਸੁਨੇਹੇ, ਫ਼ੋਟੋਆਂ, ਵੀਡੀਓ ਅਤੇ ਵੌਇਸ ਸੁਨੇਹੇ ਭੇਜਣ ਅਤੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ SMS ਦੀ ਥਾਂ 'ਤੇ WhatsApp ਨੂੰ ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੋ।\n\n*ਡਾਟਾ ਖ਼ਰਚਾ ਲਾਗੂ ਹੋ ਸਕਦਾ ਹੈ। ਵੇਰਵਿਆਂ ਲਈ ਆਪਣੇ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+    },
+    "ta-IN": {
+      "name": "WhatsApp",
+      "subtitle": "எளியது. தனிப்பட்டது. பாதுகாப்பானது.",
+      "description": "WhatsApp Messenger என்பது Jio மற்றும் பிற மொபைல்களில் கிடைக்கப்பெறும் ஓர் இலவச செய்தி பரிமாற்றச் செயலி. நண்பர்களுடனும் குடும்பத்தினருடனும் செய்திகளைப் பரிமாற உங்கள் மொபைலின் இணைய இணைப்பை (4G அல்லது வைஃபை கிடைப்பதைப் பொறுத்து) WhatsApp பயன்படுத்தும். SMS இல் இருந்து WhatsAppக்கு மாறி, செய்திகள், படங்கள், வீடியோக்கள் மற்றும் குரல் செய்திகளைப் பரிமாறிடுங்கள்.\n\n*டேட்டா கட்டணங்கள் விதிக்கப்படலாம். விவரங்களுக்கு உங்கள் சேவை வழங்குநரைத் தொடர்புகொள்ளுங்கள்."
+    },
+    "te-IN": {
+      "name": "WhatsApp",
+      "subtitle": "సరళమైనది. వ్యక్తిగతమైనది. సురక్షితమైనది",
+      "description": "WhatsApp Messenger అనేది JioPhone మరియు ఇతర స్మార్ట్‌ఫోన్‌లలో ఉపయోగించబడే ఉచిత మెసేజింగ్ యాప్. WhatsApp, మీ ఫోన్ ఇంటర్నెట్ కనెక్షన్ (4G లేదా Wi-Fi, ఏది అందుబాటులో ఉంటే అది) ఉపయోగించి, స్నేహితులు మరియు కుటుంబసభ్యులకు మెసేజ్ చేసేందుకు మిమ్మల్ని అనుమతిస్తుంది. మెసేజులు, ఫోటోలు, వీడియోలు మరియు వాయిస్ మెసేజ్‌లను పంపడానికి మరియు స్వీకరించడానికి SMS నుండి WhatsAppకు మారండి.\n\n*డేటా ఛార్జీలు వర్తించవచ్చు. వివరాల కోసం మీ ప్రొవైడర్‌ను సంప్రదించండి."
+    },
+    "ur-IN": {
+      "name": "WhatsApp",
+      "subtitle": "سادہ۔ ذاتی، محفوظ۔",
+      "description": "WhatsApp میسنجر پیغام رسانی کی مفت ایپ ہے جو JioPhone اور دیگر سمارٹ فونز کیلئے دستیاب ہے۔ WhatsApp آپ کے فون کا انٹرنیٹ کنکشن (4 جی یا وائے فائے اگر دستیاب ہو تو) استعمال کرتا ہے اور آپ اپنے دوستوں اور گھر والوں کو پیغام بھیج سکتے ہیں۔ ایس ایم ایس کی بجائے پیغامات، تصاویر، ویڈیوز اور صوتی پیغامات کو بھیجنے یا وصول کرنے کیلئے WhatsApp استعمال کریں۔\n\n٭ڈیٹا چارجز کا اطلاق ہو سکتا ہے۔ تفصیلات کیلئے اپنے انٹرنیٹ مہیا کنندہ سے رابطہ کریں۔"
+    }
+  },
+  "icons": {
+    "56": "/icons/whatsapp_56.png",
+    "84": "/icons/whatsapp_84.png",
+    "112": "/icons/whatsapp_112.png"
+  },
+  "orientation": "default",
+  "activities": {
+    "share": {
+      "href": "/notification.html",
+      "filters": {
+        "type": [
+          "video/*",
+          "image/*",
+          "text/vcard",
+          "text/plain"
+        ]
+      }
+    },
+    "view": {
+      "href": "/notification.html",
+      "filters": {
+        "type": "url",
+        "url": {
+          "required": true,
+          "pattern": "^https://(?:chat\\.whatsapp\\.com/(?:invite/)?[0-9A-Za-z]+|wa\\.me/[0-9]+(?:\\?text=.*)?)$",
+          "patternFlags": "i",
+          "regexp": "^https://(?:chat\\.whatsapp\\.com/(?:invite/)?[0-9A-Za-z]+|wa\\.me/[0-9]+(?:\\?text=.*)?)$"
+        }
+      }
+    },
+    "whatsapp_open": {
+      "href": "/notification.html",
+      "filters": {
+        "type": "url",
+        "url": {
+          "required": true
+        }
+      }
+    },
+    "new": {
+      "href": "/notification.html",
+      "filters": {
+        "type": "websms/sms",
+        "appname": "whatsapp"
+      }
+    }
+  },
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "csp": "default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com",
+  "origin": "app://kaios.whatsapp.net",
+  "dependencies": {
+    "api-daemon": "1.4.26",
+    "wavoip2": "1.0.7"
+  }
+}

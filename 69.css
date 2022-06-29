@@ -1,0 +1,2 @@
+.TH{display:flex;flex-direction:column;flex-wrap:nowrap;align-items:center}[dir] .TH{background:var(--Z)}[dir] .TI{margin-top:10px;padding:10px;text-align:center}[dir] .TJ{padding:5px}.TK{display:flex;width:calc(100vh - 100px);height:calc(100vh - 100px)}[dir] .TK{border-radius:50%;background:#fff;margin-top:8px}.TL{flex:1}[dir] .TM{margin-top:20px}@media (max-height:280px){.TK{width:calc(100vh - 70px);height:calc(100vh - 70px)}[dir] .TK{margin-top:-6px}}
+.TG{width:100%;height:100%;object-position:center;object-fit:cover}
